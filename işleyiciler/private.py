@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾 🎉", url=f"https://t.me/StarMuzikBot?startgroup=true"
+                        "🎉 𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾 🎉", url=f"https://t.me/musical_musiccbot?startgroup=true"
                     )
                 ],
                 [
@@ -22,7 +22,7 @@ async def start(_, message: Message):
                         "📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋" , callback_data= "herkes"
                     ),
                     InlineKeyboardButton(
-                        "🇹🇷 𝖲𝖺𝗁𝗂𝗉", url="https://t.me/Hayiboo"
+                        "🇹🇷 𝖲𝖺𝗁𝗂𝗉", url="https://t.me/nevarevladim"
                     )
                 ]
                 
@@ -32,8 +32,8 @@ async def start(_, message: Message):
   
 
 
-@Client.on_message(command(["djej", f"djej@{BOT_USERNAME}"]))
-async def bilgi(_, message: Message):
+@Client.on_message(command(["ex", f"ex@{BOT_USERNAME}"]))
+async def bilgi(_, message: ):
       await message.reply_text("● **𝖭𝗈𝗍 :\n\n 𝖡𝗈𝗍𝗎𝗇 𝖠𝗄𝗍𝗂𝖿 𝖢𝖺𝗅𝗂𝗌𝗆𝖺𝗌𝗂 𝗂𝖼𝗂𝗇 𝖲𝗎 𝖴𝖼 𝗒𝖾𝗍𝗄𝗂𝗒𝖾 𝗂𝗁𝗍𝗂𝗒𝖺𝖼𝗂 𝖵𝖺𝗋𝖽𝗂𝗋 :\n\n> 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖲𝗂𝗅𝗆𝖾 ,\n> 𝖡𝖺𝗀𝗅𝖺𝗇𝗍𝗂 𝖣𝖺𝗏𝖾𝗍 𝖤𝗍𝗆𝖾 ,\n> 𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻𝖾𝗍 𝖸𝗈𝗇𝖾𝗍𝗆𝖾 ,**", 
       reply_markup=InlineKeyboardMarkup(
              [
@@ -45,7 +45,7 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/Hayiboo")
+                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/nevarevladim")
                  ]
              ]
          )
@@ -67,7 +67,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/Hayiboo")
+            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/nevarevladim")
         ]
       ]
      ))
@@ -80,7 +80,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "🇹🇷 𝖠𝗌𝗂𝗌𝗍𝖺𝗇", url="https://t.me/StarMuzikAsistan")
+                         "🇹🇷 𝖠𝗌𝗂𝗌𝗍𝖺𝗇", url="@asistant_musical")
                  ],
                  [
                      InlineKeyboardButton(
@@ -98,7 +98,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Hayiboo")
+                         "⚙ Geliştirici", url="https://t.me/nevarevladim")
                  ],
                  [
                      InlineKeyboardButton(
@@ -116,7 +116,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾 🎉", url=f"https://t.me/StarMuzikBot?startgroup=true"
+                        "🎉 𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾 🎉", url=f"https://t.me/musical_musiccbot?startgroup=true"
                     )
                 ],
                 [
@@ -124,7 +124,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋" , callback_data= "herkes"
                     ),
                     InlineKeyboardButton(
-                        "🇹🇷 𝖲𝖺𝗁𝗂𝗉", url=f"https://t.me/Hayiboo"
+                        "🇹🇷 𝖲𝖺𝗁𝗂𝗉", url=f"https://t.me/nevarevladim"
                     )
                 ]
                 
