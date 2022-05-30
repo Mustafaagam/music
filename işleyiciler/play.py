@@ -74,9 +74,9 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     font = ImageFont.truetype("etc/font.otf", 32)
     draw.text((190, 550), f"Parça İsmi: {title}", (255, 255, 255), font=font)
     draw.text(
-        (190, 590), f"Parçanın süresi: {duration}", (255, 255, 255), font=font
+        (190, 590), f"Parça süresi: {duration}", (255, 255, 255), font=font
     )
-    draw.text((190, 630), f"Görüntülenme sayısı: {views}", (255, 255, 255), font=font)
+    draw.text((190, 630), f"izlenme sayısı: {views}", (255, 255, 255), font=font)
     draw.text((190, 670),
         f"Ekleyen kişi: {requested_by}",
         (255, 255, 255),
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/SohbetGirdap"),
+                InlineKeyboardButton("🔖 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Sohbetttadinda"),
             ],
         ]
     )
@@ -260,7 +260,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/SohbetGirdap"),
+                InlineKeyboardButton("🔖 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Sohbetttadinda"),
             ],
         ]
     )
